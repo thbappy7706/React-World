@@ -5,5 +5,19 @@ var ReactDOM = require('react-dom');
 
 ReactDOM.render(<h1>Tanvir Hossen Bappy</h1>,
   document.getElementById("root")
+
+  // JSX= Javascript Extension
   
   );
+
+  //behind the react dom
+
+/*
+  ReactDOM.render(React.createElement("h1", null, "Welcome to MCC"),
+    document.getElementById("root")
+  
+    // JSX= Javascript Extension
+    
+    );
+
+    */
