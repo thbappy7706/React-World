@@ -3,7 +3,16 @@ var ReactDOM = require('react-dom');
 
 // ReactDOM.render('what to show','where to show', 'callback function')
 
-ReactDOM.render(<h1>Tanvir Hossen Bappy</h1>,
+ReactDOM.render(
+<div>
+<h1>Tanvir Hossen Bappy</h1>
+<h2>Welcome to MCC</h2>
+<p>Web Developer</p>
+
+</div>,
+
+
+
   document.getElementById("root")
 
   // JSX= Javascript Extension
