@@ -1,32 +1,21 @@
-var React =  require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-// ReactDOM.render('what to show','where to show', 'callback function')
+let MyName= 'Tanvir Hossen Bappy';
 
 ReactDOM.render(
-<div>
-<h1>Tanvir Hossen Bappy</h1>
-<h2>Welcome to MCC</h2>
-<p>Web Developer</p>
 
-</div>,
+    <React.Fragment>
 
+<h1> My Full Name is {MyName}</h1>
+    <h3> My Fev Number is  {5*6} </h3>
 
+    </React.Fragment>,
 
-  document.getElementById("root")
+ 
 
-  // JSX= Javascript Extension
-  
-  );
+   
+ document.getElementById("root"),
+ 
+);
 
-  //behind the react dom
-
-/*
-  ReactDOM.render(React.createElement("h1", null, "Welcome to MCC"),
-    document.getElementById("root")
-  
-    // JSX= Javascript Extension
-    
-    );
-
-    */
