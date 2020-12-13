@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+.heading{
+
+  color: rgb(17, 78, 6);
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 50px;
+}
+
+.img-div{
+  display: flex;
+  justify-content: center;
+}
+
+.img-div img {
+ height: 250x;
+ width: 300px;
+}
