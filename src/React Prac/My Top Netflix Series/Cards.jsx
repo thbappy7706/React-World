@@ -11,6 +11,7 @@ function Card(props) {
                 <h3 className="card_title">{props.seriesname}</h3>
                 <a href={props.link} target="_blank">
                   <button className="btn">Watch Now</button>
+            
                 </a>
               </div>
             </div>
